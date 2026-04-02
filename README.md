@@ -153,7 +153,7 @@ services:
       POSTGRES_PASSWORD: norish
       POSTGRES_DB: norish
     volumes:
-      - db_data:/var/lib/postgresql/data
+      - db_data:/var/lib/postgresql
 
   chrome-headless:
     image: zenika/alpine-chrome:latest
