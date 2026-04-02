@@ -76,7 +76,7 @@ services:
       POSTGRES_PASSWORD: norish
       POSTGRES_DB: norish
     volumes:
-      - db_data:/var/lib/postgresql/data
+      - db_data:/var/lib/postgresql
     ports:
       - "5433:5432"
 
